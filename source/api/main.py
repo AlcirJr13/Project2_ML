@@ -1,4 +1,3 @@
-
 # from typing import Union
 from pydantic import BaseModel
 from fastapi.responses import HTMLResponse
@@ -20,7 +19,7 @@ setattr(sys.modules["__main__"], "NumericalTransformer", NumericalTransformer)
 
 # name of the model artifact wandb
 #lembrar de fazer login no terminal
-artifact_model_name = "projeto_2_AM/model_export:latest"
+artifact_model_name = "alcirjr/projeto_2_AM/model_export:latest"
 
 # initiate the wandb project
 run = wandb.init(project="projeto_2_AM",job_type="api")

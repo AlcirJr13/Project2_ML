@@ -1,0 +1,25 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-07-26T19:55:13.292052",
+    "startedAt": "2022-07-26T19:55:09.062120",
+    "docker": null,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [
+        "source.api.main:app",
+        "--reload"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\Alcir Jr\\anaconda3\\envs\\Project2_ML\\Scripts\\uvicorn-script.py",
+    "codePath": "..\\..\\Users\\Alcir Jr\\anaconda3\\envs\\Project2_ML\\Scripts\\uvicorn-script.py",
+    "git": {
+        "remote": "https://github.com/AlcirJr13/Project2_ML.git",
+        "commit": "d93073e592777cabf1bd91b6b03f9bcda435922c"
+    },
+    "email": "alcir_jr13@hotmail.com",
+    "root": "C:/Project2_ML/Project2_ML",
+    "host": "AlcirJr",
+    "username": "Alcir Jr",
+    "executable": "C:\\Users\\Alcir Jr\\anaconda3\\envs\\Project2_ML\\python.exe"
+}
