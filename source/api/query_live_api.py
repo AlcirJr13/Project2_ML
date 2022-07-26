@@ -25,9 +25,9 @@ person = {
         "TotalCharges" : 29.85
     }
 
-url = "http://127.0.0.1:8000"
+#url = "http://127.0.0.1:8000"
 #url = "https://teste-am.herokuapp.com"
-#url = "https://project2-ml-ppgeec.herokuapp.com/"
+url = "https://project2-ml-ppgeec.herokuapp.com/"
 response = requests.post(f"{url}/predict",
                          json=person)
 
