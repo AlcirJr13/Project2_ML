@@ -6,7 +6,7 @@ import pandas as pd
 import joblib
 import os
 import wandb
-#import tensorflow
+import tensorflow
 import sys
 #classes que criamos no pipeline!
 from source.api.pipeline import FeatureSelector, CategoricalTransformer, NumericalTransformer

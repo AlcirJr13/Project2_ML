@@ -8,6 +8,7 @@ uvicorn
 fastapi
 pydantic
 wandb
+tensorflow-cpu
 numpy
 uvicorn
 requests
@@ -17,5 +18,3 @@ jupyter
 ipywidgets
 jupyterlab_widgets
 pydantic
-tensorflow
-#1
