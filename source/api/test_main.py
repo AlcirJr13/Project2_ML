@@ -1,8 +1,3 @@
-"""
-Creator: Ivanovitch Silva
-Date: 18 April 2022
-API testing
-"""
 from fastapi.testclient import TestClient
 import os
 import sys
@@ -17,7 +12,7 @@ def test_root():
     r = client.get("/")
     assert r.status_code == 200
 
-# a unit test that tests the status code and response 
+# a unit test that tests the status code and response
 # for an instance with no churn
 def test_get_inference_no_churn():
 
@@ -49,7 +44,7 @@ def test_get_inference_no_churn():
     assert r.status_code == 200
     assert r.json() == "No Churn"
 
-# a unit test that tests the status code and response 
+# a unit test that tests the status code and response
 # for an instance with churn
 def test_get_inference_churn():
 

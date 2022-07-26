@@ -1,10 +1,3 @@
-"""
-Creator: Ivanovitch Silva
-Date: 26 April. 2022
-Script that POSTS to the API using the requests
-module and returns both the result of
-model inference and the status code
-"""
 import requests
 import json
 # import pprint
@@ -34,7 +27,7 @@ person = {
 
 #url = "http://127.0.0.1:8000"
 #url = "https://teste-am.herokuapp.com"
-url = "https://project1-ml-ppgeec1.herokuapp.com"
+url = "https://project2-ml-ppgeec.herokuapp.com/"
 response = requests.post(f"{url}/predict",
                          json=person)
 
