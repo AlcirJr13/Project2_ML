@@ -1,0 +1,19 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-07-26T17:59:02.847569",
+    "startedAt": "2022-07-26T17:59:00.840136",
+    "docker": null,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [
+        "source.api.main:app",
+        "--reload"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\Alcir Jr\\anaconda3\\envs\\Project1_ML\\Scripts\\uvicorn-script.py",
+    "codePath": "..\\Users\\Alcir Jr\\anaconda3\\envs\\Project1_ML\\Scripts\\uvicorn-script.py",
+    "host": "AlcirJr",
+    "username": "Alcir Jr",
+    "executable": "C:\\Users\\Alcir Jr\\anaconda3\\envs\\Project1_ML\\python.exe"
+}
