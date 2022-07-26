@@ -8,7 +8,7 @@ import os
 import wandb
 #import tensorflow
 import sys
-#classes que criamos no pipeline
+#classes que criamos no pipeline!
 from source.api.pipeline import FeatureSelector, CategoricalTransformer, NumericalTransformer
 
 # global variables
